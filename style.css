@@ -24,7 +24,7 @@ header{
 }
 
 .logo .color-purple{
-    color: #9100F8
+    color: fuchsia;
 }
 
 .nav-list{
@@ -52,10 +52,60 @@ a{
 }
 
 .nav-right .btn{
-    background-color:fuchsia;
+    background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
     padding: 12px 40px 16px;
     border-radius: 10000px;
+    cursor: pointer;
+}
+
+.hero-container .bg-image{
+    max-width: 100%;
+}
+
+.hero-content{
+    max-width: 100%;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 0;
+    margin-top: 150px;
+    padding: 101px 525px;
+    text-align: center;
+}
+
+.hero-content h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.hero-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.hero-content .btn-2{
+    background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 10000px;
+    cursor: pointer;
+}
+
+.hero-content .btn-3{
+    background: transparent;
+    color: #00FF88;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 10000px;
+    cursor: pointer;
 }
