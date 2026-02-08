@@ -176,7 +176,6 @@ a{
 }
 
 .why-choose-container .why-choose-card{
-    /* background-color: rgba(53, 17, 101, 0.4); */
     padding: 40px 150px 70px;
     gap: 30px;
     display: grid;
@@ -226,6 +225,14 @@ a{
     background-color: #1A0B2E;
 }
 
+.featured-episode-section .episode-info{
+    max-width: 100%;
+    padding: 40px 150px 70px;
+    gap: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .featured-episode-section header{
     text-align: center;
     padding-top: 100px;
@@ -235,21 +242,73 @@ a{
     color: #FFFFFF;
 }
 
-.featured-episode-section .videos{
-    border: 1px solid red;
-    width: 300px;
-    height: 360px;
+.featured-episode-section .episode-info .videos{
+    background-color: #250D44;
+    
 }
 
 .featured-episode-section .videos h4{
     font-size: 24px;
     font-weight: 700;
+    padding: 12px 24px;
     color: #FFFFFF; 
 }
 
 .featured-episode-section .videos p{
     font-size: 16px;
     font-weight: 400;
+    padding: 12px 24px;
     color: #FFFFFF;
     line-height: 20px;
 }
+
+.featured-episode-section .videos img{
+    padding: 12px 24px;
+}
+
+.featured-episode-section .videos span{
+    color: #00FF88;
+    font-size: 16px;
+    font-weight: 600;  
+}
+
+.featured-episode-section .meet-the-host{
+    padding: 50px 150px;
+}
+
+.featured-episode-section .meet-the-host .host-info{
+    background-color: #351165;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+}
+
+.featured-episode-section .meet-the-host .host-info img{
+    padding: 40px 24px 40px 40px;
+}
+
+.featured-episode-section .meet-the-host h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.featured-episode-section .meet-the-host p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 24px;
+    color: #FFFFFF;
+    line-height: 20px;
+}
+
+.featured-episode-section .meet-the-host .host-details{
+    background-color: #351165;
+    border-radius: 40px;
+    padding: 48px 40px 24px;
+}
+
+.featured-episode-section .meet-the-host .host-icons{
+    align-items: flex-start;
+    gap: 8px;
+}
+
