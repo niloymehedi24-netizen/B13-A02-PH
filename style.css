@@ -161,3 +161,63 @@ a{
     color: #FFFFFF;
     line-height: 20px;
 }
+
+.why-choose-container{
+    background-color: #230E3D;
+}
+
+.why-choose-container header{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.why-choose-container .why-choose-card{
+    /* background-color: rgba(53, 17, 101, 0.4); */
+    padding: 40px 150px 70px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 80px 30px; 
+}
+
+.why-choose-container .why-choose-card .cards-1{
+    grid-row: span 2;
+}
+
+.why-choose-container .why-choose-card .cards-2 .cards-3{
+    grid-column: san 2;
+}
+
+.why-choose-container .why-choose-card .cards-4{
+    grid-row: span 1;
+}
+
+.why-choose-container 
+.why-choose-card 
+.cards-1,
+.cards-2,
+.cards-3,
+.cards-4,
+.cards-5{
+    background-color: rgba(53, 17, 101, 0.4);
+    gap: 30px;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.why-choose-container .why-choose-card h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.why-choose-container .why-choose-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 20px;
+}
