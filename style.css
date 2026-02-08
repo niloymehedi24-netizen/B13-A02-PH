@@ -61,8 +61,11 @@ a{
     cursor: pointer;
 }
 
-.hero-container .bg-image{
-    max-width: 100%;
+.hero-container{
+    text-align: center;
+    background-image: url("./assets/hero-bg.png"); 
+    background-size: cover;              
+    background-position: center;
 }
 
 .hero-content{
@@ -312,3 +315,40 @@ a{
     gap: 8px;
 }
 
+footer{
+    text-align: center;
+    background-image: url("assets/footer-bg.png"); 
+    background-size: cover;              
+    background-position: center;
+}
+
+footer .footer-info{
+    padding: 120px;
+}
+
+footer .footer-logo{
+    font-size: 48px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+footer .footer-color{
+    color: fuchsia;
+}
+
+footer .footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+footer .footer-icons p{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+footer .footer-info .copyright{
+    font-size: 16px;
+    color: #FFFFFF;
+}
